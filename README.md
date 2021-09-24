@@ -6,9 +6,9 @@ The code is based on [DialogueGCN](https://github.com/mianzhang/dialogue_gcn).
 # Steps: 
 Knowledge preprocess:
 * Download [ConceptNet](https://github.com/commonsense/conceptnet5/wiki/Downloads) and [NRC_VAD](https://saifmohammad.com/WebPages/nrc-vad.html).
-* preprocess ConceptNet and NRC_VAD: run 'preprocess_knowledge.py'.
+* preprocess ConceptNet and NRC_VAD: run `preprocess_knowledge.py`.
 
-Model training: run 'train_multi.py' for both IEMOCAP and MELD datasets.
+Model training: run `train_multi.py` for both IEMOCAP and MELD datasets.
 
 # Citing 
 If you find this repo or paper useful, please cite
