@@ -1,0 +1,4 @@
+{
+    "model_name":{"_type":"choice","_value":["LinearRegression", "Lars", "Ridge", "ARDRegression"]},
+    "normalize": {"_type":"choice","_value":["true", "false"]}
+}
