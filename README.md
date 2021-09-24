@@ -1,5 +1,5 @@
 
-The PyTorch code for paper: CONSK-GCN: Conversational Semantic- and Knowledge-Oriented Graph Convolutional Network for Multimodal Emotion Recognition [PDF](https://ieeexplore.ieee.org/abstract/document/9428438?casa_token=_-nrDKOvABMAAAAA:3tj9hYXPXMcI72vQ29vAErcFS-svyxguqiGM3isqaPR12ent7RDNjATiXzQTI84Or0kNp0QHSqzb).
+The PyTorch code for paper: CONSK-GCN: Conversational Semantic- and Knowledge-Oriented Graph Convolutional Network for Multimodal Emotion Recognition [[PDF]](https://ieeexplore.ieee.org/abstract/document/9428438?casa_token=_-nrDKOvABMAAAAA:3tj9hYXPXMcI72vQ29vAErcFS-svyxguqiGM3isqaPR12ent7RDNjATiXzQTI84Or0kNp0QHSqzb).
 
 The code is based on [DialogueGCN](https://github.com/mianzhang/dialogue_gcn).
 
