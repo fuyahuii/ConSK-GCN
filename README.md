@@ -4,7 +4,7 @@ The PyTorch code for paper: CONSK-GCN: Conversational Semantic- and Knowledge-Or
 The code is based on [DialogueGCN](https://github.com/mianzhang/dialogue_gcn).
 
 # Steps: 
-> Knowledge preprocess:
+> Knowledge preparation:
 > * Download [ConceptNet](https://github.com/commonsense/conceptnet5/wiki/Downloads) and [NRC_VAD](https://saifmohammad.com/WebPages/nrc-vad.html).
 > * preprocess ConceptNet and NRC_VAD: run `preprocess_knowledge.py`.
 
