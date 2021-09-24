@@ -13,7 +13,7 @@ The code is based on [DialogueGCN](https://github.com/mianzhang/dialogue_gcn).
 # Citing 
 If you find this repo or paper useful, please cite
 
-'
+`
 @inproceedings{fu2021consk,
   title={CONSK-GCN: Conversational Semantic-and Knowledge-Oriented Graph Convolutional Network for Multimodal Emotion Recognition},
   author={Fu, Yahui and Okada, Shogo and Wang, Longbiao and Guo, Lili and Song, Yaodong and Liu, Jiaxing and Dang, Jianwu},
@@ -22,4 +22,4 @@ If you find this repo or paper useful, please cite
   year={2021},
   organization={IEEE}
 }
-'
+`
