@@ -36,7 +36,7 @@ class Coach:
     def train(self):
         log.debug(self.model)
         # Early stopping.
-        best_test_f1, best_epoch, best_state = self.best_test_f1, self.best_epoch, self.best_state
+        best_dev_f1, best_epoch, best_state = self.best_dev_f1, self.best_epoch, self.best_state
 
         Train_f1 = []
         Dev_f1 = []
@@ -53,16 +53,16 @@ class Coach:
             # report intermediate result
             nni.report_intermediate_result(test_f1)
 
-            if best_test_f1 is None or test_f1 > best_test_f1:
-                best_test_f1 = test_f1
+            if best_dev_f1 is None or dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
                 best_epoch = epoch
                 best_state = copy.deepcopy(self.model.state_dict())
                 log.info("Save the best model.")
 
-
             Dev_f1.append(dev_f1)
             Train_f1.append(train_f1)
             Test_f1.append(test_f1)
+            
         # The best
         self.model.load_state_dict(best_state)
         log.info("")
