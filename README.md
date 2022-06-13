@@ -6,7 +6,7 @@ Context- and Knowledge-Aware Graph Convolutional Network for Multimodal Emotion 
 The code is based on [DialogueGCN](https://github.com/mianzhang/dialogue_gcn).
 
 # Steps: 
-> Knowledge preparation:
+> Knowledge preparation(You can skip this step by using the already preprocessed knowledges in the Data directory):
 > * Download [ConceptNet](https://github.com/commonsense/conceptnet5/wiki/Downloads) and [NRC_VAD](https://saifmohammad.com/WebPages/nrc-vad.html).
 > * preprocess ConceptNet and NRC_VAD: run `preprocess_knowledge.py`.
 
