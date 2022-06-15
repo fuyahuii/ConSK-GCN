@@ -119,9 +119,9 @@ def get_params():
 						help="dim of the gcn")
 	parser.add_argument("--gcn_h2", type=float, default=100,
 						help="dim of the gcn")
-	parser.add_argument("--param_t", type=float, default=0.5,
+	parser.add_argument("--param_t", type=float, default=0.6,
 						help="ratio between semantics and concept konwledges in text modality")
-	parser.add_argument("--param_a", type=float, default=0.5,
+	parser.add_argument("--param_a", type=float, default=0.6,
 						help="ratio between semantics and concept konwledges in audio modality")
 	parser.add_argument("--class_weight", action="store_true",
 						help="Use class weights in nll loss.")
